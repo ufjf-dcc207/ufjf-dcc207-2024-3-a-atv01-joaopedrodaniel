@@ -1,8 +1,11 @@
+import Disciplina from "./Disciplina"
 
 function App() {
-
   return (
-    <h1>Hello World</h1>
+    <div>
+      <h1>Olá mundo!</h1>
+      <Disciplina codigo="DCC207" nome="Desenvolvimento Web Front-End" />
+    </div>
   )
 }
 
